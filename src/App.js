@@ -15,7 +15,7 @@ function App() {
 		setTours(Data);
 	}
 
-	if (tours.length == 0) {
+	if (tours.length === 0) {
 		return (
 			<div>
 				<h2 className="head">Plan for Love</h2>
